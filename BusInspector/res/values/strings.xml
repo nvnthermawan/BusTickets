@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BusInspector</string>
+    <string name="action_settings">Settings</string>
+    <string name="validity">Error!</string>
+    <string name="title_activity_reader">ReaderActivity</string>
+    <string name="title_activity_tickets">TicketsActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+
+</resources>

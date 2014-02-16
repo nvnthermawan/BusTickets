@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BusClient</string>
+    <string name="title_activity_logged">I\'m logged in!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register your data!</string>
+    <string name="title_activity_view_tickets">My Tickets!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_buy_tickets">Buy Tickets!</string>
+    <string name="title_activity_qrcode">QRCodeActivity</string>
+    <string name="username">Username</string>
+	<string name="password">New Password</string>
+	<string name="confirmpassword">Confirm Password</string>
+	<string name="name">Name</string>
+	<string name="cardnumber">Credit Card</string>
+	<string name="carddate">Expiration date</string>
+	<string name="cardtype">Card Type</string>
+	<string name="checkReg">Register</string>
+	<string name="qrc"></string>
+	<string name="validity"></string>
+    
+
+</resources>

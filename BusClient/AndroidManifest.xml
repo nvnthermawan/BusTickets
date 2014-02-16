@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jclc.busclient"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jclc.busclient.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jclc.busclient.LoggedActivity"
+            android:label="@string/title_activity_logged"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="com.jclc.busclient.LoggedActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jclc.busclient.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="com.jclc.busclient.RegisterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jclc.busclient.ViewTicketsActivity"
+            android:label="@string/title_activity_view_tickets"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="com.jclc.busclient.ViewTicketsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jclc.busclient.BuyTicketsActivity"
+            android:label="@string/title_activity_buy_tickets"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="com.jclc.busclient.BuyTicketsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jclc.busclient.QRCodeActivity"
+            android:label="@string/title_activity_qrcode" >
+            <intent-filter>
+                <action android:name="com.jclc.busclient.QRCodeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jclc.busclient.QRcodeActivity"
+            android:label="@string/title_activity_qrcode" >
+        </activity>
+    </application>
+
+</manifest>
